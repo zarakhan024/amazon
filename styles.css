@@ -237,6 +237,7 @@
         height: 600px;
         background-image: url(box1.jpg);
         background-size: cover;
+        
 
     }
 
@@ -253,24 +254,26 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 15px;
+        padding-bottom: 15px;
       
     }
     .box {
         width: 355px;
-        height: 420px;
+        height: 385px;
         margin: 0px 0px ;
         padding: 20px 0px 15px;
         background-color: white;
-        display: flex;
-        align-items:center;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;  
+          
        a  {
             text-decoration: none;
             color: #007185;
             font-size: 0.8rem;
             font-weight: 600;
+            margin: auto;
+            align-self: center;
+            margin-left: 10px;
+           
 
        }
        h2 {
@@ -283,45 +286,50 @@
         
 
 .row1 {
-            margin-top: -550px;
+            margin-top: -530px;
     }
 
 .row2 {
-            margin-top: -180px;
+            margin-top: -170px;
     }
 
 .items1 {
+    color: black;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "item1 item2" "item3 item4";
-    grid-gap: 15px;
-    margin: auto;
-    padding:0px 20px;
+    grid-gap: 10px;
+    margin: 0px 0px 48px;
+    padding:0px 10px; 
+    width: 95%;
+    
+
+    img {
+        width: 100%;
+         font-size: 0.85rem;
+    }
+   
 
     .item1 {
-        width:150px ;
-        height: 100px;
-        background-image:url(CleaningTool_1x._SY116_CB563137408_.jpg) ;
-        background-size:auto;
+        width: 100% ;
+        
+        
     }
     .item2{
-        width: 150px;
-        height: 100px;
-        background-image: url(HomeStorage_1x._SY116_CB563137408_.jpg);
-        background-size: cover;
+        width: 100%;
+        
+       
     }
     .item3 {
-        width: 150px;
-        height: 100px;
-        background-image: url(HomeDecor_1x._SY116_CB563137408_.jpg);
-        background-size: cover;
+        width:100%;  
+        
+       
     }
     .item4 {
-        width: 150px;
-        height: 100px;
-        background-image: url(Bedding_1x._SY116_CB563137408_.jpg);
-        background-size: cover;
+        width: 100%;
+       
+       
     }
 }
 
@@ -330,34 +338,384 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "item1 item2" "item3 item4";
-    grid-gap: 15px;
-    margin: 0px 0px 44px;
-    padding:0px 20px;
+    grid-gap: 10px; 
+    padding:0px 10px;
+    width:95%;
+    height: 276px;
+  
+   img {
+            width: 100%;
+            
+        }
 
     .item1 {
-        width: 330px;
-        height: 145px; 
+        width: 100%;
         grid-row: 1;
         grid-column: span 3;
-        background-image:url(cooker.jpg) ;
-        background-size:cover;
     }
     .item2{
-        width: 100px;
-        height: 75px;
-        background-image:url(coffee.jpg) ;
-        background-size: cover;
+    
+        width: 100%;
     }
     .item3 {
-        width: 100px;
-        height: 75px;
-        background-image:url(potsandpans.jpg) ;
-        background-size: cover;
+        width: 100%;
     }
     .item4 {
-        width: 100px;
-        height: 75px;
-        background-image:url(kettles.jpg) ;
-        background-size: cover;
+        width: 100%;
+    }
+}
+/*  */
+.items3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "item1 item2" "item3 item4";
+    grid-gap: 15px;
+    grid-gap: 10px;
+    margin: 0px 0px 48px;
+    padding:0px 10px; 
+    width: 95%;
+    img {
+        width: 100%;
+        font-size: 0.85rem;
+    }
+
+    .item1 {
+        width:100% ;
+        
+        
+    }
+    .item2{
+        width: 100%;
+        
+       
+    }
+    .item3 {
+        width:100%;  
+        
+       
+    }
+    .item4 {
+        width: 100%;
+       
+       
+    }
+}
+
+.items4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "item1 item2" "item3 item4";
+    grid-gap: 10px; 
+    padding:0px 10px;
+    width:95%;
+    height: 276px;
+  
+    img {
+        width: 100%;
+        font-size: 0.85rem;
+    }
+
+.item1 {
+    width: 100%;
+    grid-row: 1;
+    grid-column: span 3;
+    
+}
+.item2{
+
+    width: 100%;
+}
+.item3 {
+    width: 100%;
+    
+}
+.item4 {
+    width: 100%;
+    
+    
+}  
+}
+
+.items5 {
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "item1 item2" "item3 item4";
+    grid-gap: 10px;
+    margin: 0px 0px 48px;
+    padding:0px 10px; 
+    width: 95%;
+    
+
+    img {
+        width: 100%;
+         font-size: 0.85rem;
+    }
+   
+
+    .item1 {
+        width: 100% ;
+        
+        
+    }
+    .item2{
+        width: 100%;
+        
+       
+    }
+    .item3 {
+        width:100%;  
+        
+       
+    }
+    .item4 {
+        width: 100%;
+       
+       
+    }
+}
+
+.items6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "item1 item2" "item3 item4";
+    grid-gap: 10px; 
+    padding:0px 10px;
+    width:95%;
+    height: 276px;
+  
+   img {
+            width: 100%;
+            
+        }
+
+    .item1 {
+        width: 100%;
+        grid-row: 1;
+        grid-column: span 3;
+    }
+    .item2{
+    
+        width: 100%;
+    }
+    .item3 {
+        width: 100%;
+    }
+    .item4 {
+        width: 100%;
+    }
+}
+
+.items7 {
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "item1 item2" "item3 item4";
+    grid-gap: 10px;
+    margin: 0px 0px 48px;
+    padding:0px 10px; 
+    width: 95%;
+    
+
+    img {
+        width: 100%;
+         font-size: 0.85rem;
+    }
+   
+
+    .item1 {
+        width: 100% ;
+        
+        
+    }
+    .item2{
+        width: 100%;
+        
+       
+    }
+    .item3 {
+        width:100%;  
+        
+       
+    }
+    .item4 {
+        width: 100%;
+       
+       
+    }
+}
+
+.items8 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "item1 item2" "item3 item4";
+    grid-gap: 10px; 
+    padding:0px 10px;
+    width:95%;
+    height: 276px;
+  
+   img {
+            width: 100%;
+            
+        }
+
+    .item1 {
+        width: 100%;
+        grid-row: 1;
+        grid-column: span 3;
+    }
+    .item2{
+    
+        width: 100%;
+    }
+    .item3 {
+        width: 100%;
+    }
+    .item4 {
+        width: 100%;
+    }
+}
+
+
+.recomm {
+    height: 150px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    h2 {
+        font-size: 23px;
+        font-weight:600;
+        padding-bottom: 10px;
+    }
+
+    button {
+        width: 230px;
+        height: 28px;
+        font-size: 12px;
+        background-color: rgb(255, 196, 35);
+        border: 1px solid orange;
+        border-radius: 5px;
+    }
+    span{
+        padding-top: 5px;
+        font-size: 11px;
+        a {
+            text-decoration: none;
+            color: #007185;
+        }
+    }
+ }
+
+
+
+/* footer */
+.footer {
+    width: 100vw;
+    height: 900px;
+    color: white;
+    
+
+    .panel-2 {
+        display: flex;
+        background-color: #28405a;
+        height: 49px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        button {
+            width: 100%;
+            height: 50px;
+            text-decoration: none;
+            background-color: #3d5168;
+            font-size: 0.8rem;
+            border: none;
+            color: white;
+        }
+
+     }
+     
+
+     .extra-wrapper {
+        background-color: #222f3d;
+        height: 390px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+     }
+     .extra {
+        background-color: #222f3d;
+        height: 390px;
+        width: 80vw;
+        
+
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       grid-template-rows: repeat(1, 1fr);
+       grid-template-areas: "know-us" " make-money" " amazon-pay" "help-you" ;
+       color: white;
+       flex-direction: column;
+
+       h4{
+           margin-bottom: 20px;
+           margin-top: 50px;
+       }
+       
+       a { font-size: 0.8rem;
+           display: block;
+           margin-bottom: 10px;
+           color: #dddddd;
+    }
+    }  
+ 
+    .know-us {
+       padding: 0px 10px;  
+          
+        
+ }
+    .make-money {
+        padding: 0px 10px;
+       
+
+    }
+    .amazon-pay {   
+        padding: 0px 10px;
+       
+    }
+    .help-you {
+        padding: 0px 10px;
+       
+    }
+}
+
+
+.footer-line {
+    width: 100vw;
+    height: 70px;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222f3d;
+    border-top: 1PX solid #dddddd;
+
+    footer-logo {
+        width: 40px;
+        height: 70px;
+
+       background-image:url(logo3.png);
     }
 }
